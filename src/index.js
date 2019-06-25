@@ -1,3 +1,6 @@
 import echo from './echo'
+import { bar } from '@config'
 
-echo('hello world')
+echo(bar)
+
+
